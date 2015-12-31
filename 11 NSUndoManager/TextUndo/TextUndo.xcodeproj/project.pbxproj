@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		228FDC951C302CE600EDC18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDC941C302CE600EDC18C /* AppDelegate.swift */; };
+		228FDC971C302CE600EDC18C /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228FDC961C302CE600EDC18C /* Document.swift */; };
+		228FDC9A1C302CE600EDC18C /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228FDC981C302CE600EDC18C /* Document.xib */; };
+		228FDC9C1C302CE600EDC18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228FDC9B1C302CE600EDC18C /* Assets.xcassets */; };
+		228FDC9F1C302CE600EDC18C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228FDC9D1C302CE600EDC18C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		228FDC911C302CE600EDC18C /* TextUndo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextUndo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		228FDC941C302CE600EDC18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		228FDC961C302CE600EDC18C /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		228FDC991C302CE600EDC18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		228FDC9B1C302CE600EDC18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		228FDC9E1C302CE600EDC18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		228FDCA01C302CE600EDC18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		228FDC8E1C302CE600EDC18C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		228FDC881C302CE600EDC18C = {
+			isa = PBXGroup;
+			children = (
+				228FDC931C302CE600EDC18C /* TextUndo */,
+				228FDC921C302CE600EDC18C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		228FDC921C302CE600EDC18C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				228FDC911C302CE600EDC18C /* TextUndo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		228FDC931C302CE600EDC18C /* TextUndo */ = {
+			isa = PBXGroup;
+			children = (
+				228FDC941C302CE600EDC18C /* AppDelegate.swift */,
+				228FDC961C302CE600EDC18C /* Document.swift */,
+				228FDC981C302CE600EDC18C /* Document.xib */,
+				228FDC9B1C302CE600EDC18C /* Assets.xcassets */,
+				228FDC9D1C302CE600EDC18C /* MainMenu.xib */,
+				228FDCA01C302CE600EDC18C /* Info.plist */,
+			);
+			path = TextUndo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		228FDC901C302CE600EDC18C /* TextUndo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 228FDCA31C302CE600EDC18C /* Build configuration list for PBXNativeTarget "TextUndo" */;
+			buildPhases = (
+				228FDC8D1C302CE600EDC18C /* Sources */,
+				228FDC8E1C302CE600EDC18C /* Frameworks */,
+				228FDC8F1C302CE600EDC18C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextUndo;
+			productName = TextUndo;
+			productReference = 228FDC911C302CE600EDC18C /* TextUndo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		228FDC891C302CE600EDC18C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = anesin;
+				TargetAttributes = {
+					228FDC901C302CE600EDC18C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 228FDC8C1C302CE600EDC18C /* Build configuration list for PBXProject "TextUndo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 228FDC881C302CE600EDC18C;
+			productRefGroup = 228FDC921C302CE600EDC18C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				228FDC901C302CE600EDC18C /* TextUndo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		228FDC8F1C302CE600EDC18C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228FDC9C1C302CE600EDC18C /* Assets.xcassets in Resources */,
+				228FDC9A1C302CE600EDC18C /* Document.xib in Resources */,
+				228FDC9F1C302CE600EDC18C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		228FDC8D1C302CE600EDC18C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228FDC971C302CE600EDC18C /* Document.swift in Sources */,
+				228FDC951C302CE600EDC18C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		228FDC981C302CE600EDC18C /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228FDC991C302CE600EDC18C /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		228FDC9D1C302CE600EDC18C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				228FDC9E1C302CE600EDC18C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		228FDCA11C302CE600EDC18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		228FDCA21C302CE600EDC18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		228FDCA41C302CE600EDC18C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextUndo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anesiner.wordpress.com.TextUndo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		228FDCA51C302CE600EDC18C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextUndo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anesiner.wordpress.com.TextUndo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		228FDC8C1C302CE600EDC18C /* Build configuration list for PBXProject "TextUndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228FDCA11C302CE600EDC18C /* Debug */,
+				228FDCA21C302CE600EDC18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		228FDCA31C302CE600EDC18C /* Build configuration list for PBXNativeTarget "TextUndo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228FDCA41C302CE600EDC18C /* Debug */,
+				228FDCA51C302CE600EDC18C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 228FDC891C302CE600EDC18C /* Project object */;
+}
