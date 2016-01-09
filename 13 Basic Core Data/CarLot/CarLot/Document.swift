@@ -10,6 +10,36 @@ import Cocoa
 
 class Document: NSPersistentDocument {
 
+    @IBOutlet weak var tableView: NSTableView!
+    @IBOutlet weak var arrayController: CarArrayController!
+
+    // MARK: - Actions
+    
+    @IBAction func addCar(sender: NSButton) {
+        let windowController = windowControllers[0]
+        let window = windowController.window!
+        
+        let endedEditing = window.makeFirstResponder(window)
+        if !endedEditing {
+            print("Unable to end editing")
+            return
+        }
+        
+        let undo: NSUndoManager = undoManager!
+        if undo.groupingLevel > 0 {
+            undo.endUndoGrouping()
+            undo.beginUndoGrouping()
+        }
+        
+        let car = arrayController.newObject() as! NSObject
+        arrayController.addObject(car)
+        arrayController.rearrangeObjects()
+        let sortedEmployees = arrayController.arrangedObjects as! [NSObject]
+        let row = sortedEmployees.indexOf(car)!
+        print("starting edit of \(car) in row \(row)")
+        tableView.editColumn(0, row: row, withEvent: nil, select: true)
+    }
+    
     override init() {
         super.init()
         // Add your subclass-specific initialization here.

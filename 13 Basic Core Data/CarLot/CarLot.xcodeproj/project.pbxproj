@@ -13,6 +13,7 @@
 		2249F9DC1C40D4A0002976C4 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2249F9DA1C40D4A0002976C4 /* Document.xcdatamodeld */; };
 		2249F9DE1C40D4A0002976C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2249F9DD1C40D4A0002976C4 /* Assets.xcassets */; };
 		2249F9E11C40D4A0002976C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2249F9DF1C40D4A0002976C4 /* MainMenu.xib */; };
+		22C0FEAE1C4111C000580E5A /* CarArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C0FEAD1C4111C000580E5A /* CarArrayController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2249F9DD1C40D4A0002976C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2249F9E01C40D4A0002976C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2249F9E21C40D4A0002976C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22C0FEAD1C4111C000580E5A /* CarArrayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarArrayController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2249F9D31C40D4A0002976C4 /* AppDelegate.swift */,
 				2249F9D51C40D4A0002976C4 /* Document.swift */,
 				2249F9D71C40D4A0002976C4 /* Document.xib */,
+				22C0FEAD1C4111C000580E5A /* CarArrayController.swift */,
 				2249F9DD1C40D4A0002976C4 /* Assets.xcassets */,
 				2249F9DF1C40D4A0002976C4 /* MainMenu.xib */,
 				2249F9E21C40D4A0002976C4 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22C0FEAE1C4111C000580E5A /* CarArrayController.swift in Sources */,
 				2249F9DC1C40D4A0002976C4 /* Document.xcdatamodeld in Sources */,
 				2249F9D61C40D4A0002976C4 /* Document.swift in Sources */,
 				2249F9D41C40D4A0002976C4 /* AppDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				2249F9E71C40D4A0002976C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
