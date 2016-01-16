@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0720"
+   LastUpgradeVersion = "0710"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "22C0FEB71C411C7000580E5A"
-               BuildableName = "RaiseMan.app"
-               BlueprintName = "RaiseMan"
-               ReferencedContainer = "container:RaiseMan.xcodeproj">
+               BlueprintIdentifier = "225C248B1C019CE900F9AF79"
+               BuildableName = "SpeakLine.app"
+               BlueprintName = "SpeakLine"
+               ReferencedContainer = "container:SpeakLine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22C0FEB71C411C7000580E5A"
-            BuildableName = "RaiseMan.app"
-            BlueprintName = "RaiseMan"
-            ReferencedContainer = "container:RaiseMan.xcodeproj">
+            BlueprintIdentifier = "225C248B1C019CE900F9AF79"
+            BuildableName = "SpeakLine.app"
+            BlueprintName = "SpeakLine"
+            ReferencedContainer = "container:SpeakLine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22C0FEB71C411C7000580E5A"
-            BuildableName = "RaiseMan.app"
-            BlueprintName = "RaiseMan"
-            ReferencedContainer = "container:RaiseMan.xcodeproj">
+            BlueprintIdentifier = "225C248B1C019CE900F9AF79"
+            BuildableName = "SpeakLine.app"
+            BlueprintName = "SpeakLine"
+            ReferencedContainer = "container:SpeakLine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "22C0FEB71C411C7000580E5A"
-            BuildableName = "RaiseMan.app"
-            BlueprintName = "RaiseMan"
-            ReferencedContainer = "container:RaiseMan.xcodeproj">
+            BlueprintIdentifier = "225C248B1C019CE900F9AF79"
+            BuildableName = "SpeakLine.app"
+            BlueprintName = "SpeakLine"
+            ReferencedContainer = "container:SpeakLine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

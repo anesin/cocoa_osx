@@ -16,4 +16,5 @@ class CarArrayController: NSArrayController {
         newObj.setValue(now, forKey: "datePurchased")
         return newObj
     }
+    
 }
