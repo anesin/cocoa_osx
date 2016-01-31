@@ -10,6 +10,8 @@
 		22F831DA1C5C9F2C0014C023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F831D91C5C9F2C0014C023 /* AppDelegate.swift */; };
 		22F831DC1C5C9F2C0014C023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F831DB1C5C9F2C0014C023 /* Assets.xcassets */; };
 		22F831DF1C5C9F2C0014C023 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F831DD1C5C9F2C0014C023 /* MainMenu.xib */; };
+		22F831E81C5C9FB90014C023 /* ChatWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F831E61C5C9FB90014C023 /* ChatWindowController.swift */; };
+		22F831E91C5C9FB90014C023 /* ChatWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F831E71C5C9FB90014C023 /* ChatWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		22F831DB1C5C9F2C0014C023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22F831DE1C5C9F2C0014C023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		22F831E01C5C9F2C0014C023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F831E61C5C9FB90014C023 /* ChatWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWindowController.swift; sourceTree = "<group>"; };
+		22F831E71C5C9FB90014C023 /* ChatWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				22F831D91C5C9F2C0014C023 /* AppDelegate.swift */,
+				22F831E61C5C9FB90014C023 /* ChatWindowController.swift */,
+				22F831E71C5C9FB90014C023 /* ChatWindowController.xib */,
 				22F831DB1C5C9F2C0014C023 /* Assets.xcassets */,
 				22F831DD1C5C9F2C0014C023 /* MainMenu.xib */,
 				22F831E01C5C9F2C0014C023 /* Info.plist */,
@@ -118,6 +124,7 @@
 			files = (
 				22F831DC1C5C9F2C0014C023 /* Assets.xcassets in Resources */,
 				22F831DF1C5C9F2C0014C023 /* MainMenu.xib in Resources */,
+				22F831E91C5C9FB90014C023 /* ChatWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22F831DA1C5C9F2C0014C023 /* AppDelegate.swift in Sources */,
+				22F831E81C5C9FB90014C023 /* ChatWindowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
