@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2244060C1C5E4A9700CB0ABB /* IsNotEmptyTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2244060B1C5E4A9700CB0ABB /* IsNotEmptyTransformer.swift */; };
+		22F831DA1C5C9F2C0014C023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F831D91C5C9F2C0014C023 /* AppDelegate.swift */; };
+		22F831DC1C5C9F2C0014C023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F831DB1C5C9F2C0014C023 /* Assets.xcassets */; };
+		22F831DF1C5C9F2C0014C023 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F831DD1C5C9F2C0014C023 /* MainMenu.xib */; };
+		22F831E81C5C9FB90014C023 /* ChatWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F831E61C5C9FB90014C023 /* ChatWindowController.swift */; };
+		22F831E91C5C9FB90014C023 /* ChatWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F831E71C5C9FB90014C023 /* ChatWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2244060B1C5E4A9700CB0ABB /* IsNotEmptyTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsNotEmptyTransformer.swift; sourceTree = "<group>"; };
+		22F831D61C5C9F2C0014C023 /* Chatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F831D91C5C9F2C0014C023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22F831DB1C5C9F2C0014C023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F831DE1C5C9F2C0014C023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		22F831E01C5C9F2C0014C023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F831E61C5C9FB90014C023 /* ChatWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatWindowController.swift; sourceTree = "<group>"; };
+		22F831E71C5C9FB90014C023 /* ChatWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F831D31C5C9F2C0014C023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F831CD1C5C9F2C0014C023 = {
+			isa = PBXGroup;
+			children = (
+				22F831D81C5C9F2C0014C023 /* Chatter */,
+				22F831D71C5C9F2C0014C023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22F831D71C5C9F2C0014C023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F831D61C5C9F2C0014C023 /* Chatter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F831D81C5C9F2C0014C023 /* Chatter */ = {
+			isa = PBXGroup;
+			children = (
+				22F831D91C5C9F2C0014C023 /* AppDelegate.swift */,
+				22F831E61C5C9FB90014C023 /* ChatWindowController.swift */,
+				22F831E71C5C9FB90014C023 /* ChatWindowController.xib */,
+				2244060B1C5E4A9700CB0ABB /* IsNotEmptyTransformer.swift */,
+				22F831DB1C5C9F2C0014C023 /* Assets.xcassets */,
+				22F831DD1C5C9F2C0014C023 /* MainMenu.xib */,
+				22F831E01C5C9F2C0014C023 /* Info.plist */,
+			);
+			path = Chatter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F831D51C5C9F2C0014C023 /* Chatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F831E31C5C9F2C0014C023 /* Build configuration list for PBXNativeTarget "Chatter" */;
+			buildPhases = (
+				22F831D21C5C9F2C0014C023 /* Sources */,
+				22F831D31C5C9F2C0014C023 /* Frameworks */,
+				22F831D41C5C9F2C0014C023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chatter;
+			productName = Chatter;
+			productReference = 22F831D61C5C9F2C0014C023 /* Chatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F831CE1C5C9F2C0014C023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = anesin;
+				TargetAttributes = {
+					22F831D51C5C9F2C0014C023 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 22F831D11C5C9F2C0014C023 /* Build configuration list for PBXProject "Chatter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F831CD1C5C9F2C0014C023;
+			productRefGroup = 22F831D71C5C9F2C0014C023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F831D51C5C9F2C0014C023 /* Chatter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F831D41C5C9F2C0014C023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F831DC1C5C9F2C0014C023 /* Assets.xcassets in Resources */,
+				22F831DF1C5C9F2C0014C023 /* MainMenu.xib in Resources */,
+				22F831E91C5C9FB90014C023 /* ChatWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F831D21C5C9F2C0014C023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2244060C1C5E4A9700CB0ABB /* IsNotEmptyTransformer.swift in Sources */,
+				22F831DA1C5C9F2C0014C023 /* AppDelegate.swift in Sources */,
+				22F831E81C5C9FB90014C023 /* ChatWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22F831DD1C5C9F2C0014C023 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F831DE1C5C9F2C0014C023 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F831E11C5C9F2C0014C023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22F831E21C5C9F2C0014C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		22F831E41C5C9F2C0014C023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Chatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anesiner.wordpress.com.Chatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		22F831E51C5C9F2C0014C023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Chatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anesiner.wordpress.com.Chatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F831D11C5C9F2C0014C023 /* Build configuration list for PBXProject "Chatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F831E11C5C9F2C0014C023 /* Debug */,
+				22F831E21C5C9F2C0014C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F831E31C5C9F2C0014C023 /* Build configuration list for PBXNativeTarget "Chatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F831E41C5C9F2C0014C023 /* Debug */,
+				22F831E51C5C9F2C0014C023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F831CE1C5C9F2C0014C023 /* Project object */;
+}
