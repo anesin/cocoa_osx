@@ -10,6 +10,9 @@
 		22817E461C6B2969008A27DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22817E451C6B2969008A27DD /* AppDelegate.swift */; };
 		22817E481C6B2969008A27DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22817E471C6B2969008A27DD /* Assets.xcassets */; };
 		22817E4B1C6B2969008A27DD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22817E491C6B2969008A27DD /* MainMenu.xib */; };
+		22817E561C6B2AC7008A27DD /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22817E541C6B2AC7008A27DD /* MainWindowController.swift */; };
+		22817E571C6B2AC7008A27DD /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22817E551C6B2AC7008A27DD /* MainWindowController.xib */; };
+		22817E591C6B2B86008A27DD /* TiledImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22817E581C6B2B86008A27DD /* TiledImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		22817E471C6B2969008A27DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22817E4A1C6B2969008A27DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		22817E4C1C6B2969008A27DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22817E541C6B2AC7008A27DD /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		22817E551C6B2AC7008A27DD /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		22817E581C6B2B86008A27DD /* TiledImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TiledImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,9 @@
 		22817E441C6B2969008A27DD /* ImageTiling */ = {
 			isa = PBXGroup;
 			children = (
+				22817E541C6B2AC7008A27DD /* MainWindowController.swift */,
+				22817E581C6B2B86008A27DD /* TiledImageView.swift */,
+				22817E551C6B2AC7008A27DD /* MainWindowController.xib */,
 				22817E451C6B2969008A27DD /* AppDelegate.swift */,
 				22817E471C6B2969008A27DD /* Assets.xcassets */,
 				22817E491C6B2969008A27DD /* MainMenu.xib */,
@@ -117,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22817E481C6B2969008A27DD /* Assets.xcassets in Resources */,
+				22817E571C6B2AC7008A27DD /* MainWindowController.xib in Resources */,
 				22817E4B1C6B2969008A27DD /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22817E561C6B2AC7008A27DD /* MainWindowController.swift in Sources */,
+				22817E591C6B2B86008A27DD /* TiledImageView.swift in Sources */,
 				22817E461C6B2969008A27DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
