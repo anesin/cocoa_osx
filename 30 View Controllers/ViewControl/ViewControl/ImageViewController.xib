@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ImageViewController" customModule="ViewControl" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="450" height="450"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bzJ-Md-Akb">
+                    <rect key="frame" x="17" y="17" width="416" height="416"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" id="DE9-WV-SPp"/>
+                    <connections>
+                        <binding destination="-2" name="value" keyPath="image" id="Deh-Vr-rVP"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="bzJ-Md-Akb" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="20" id="3Ff-w7-cvb"/>
+                <constraint firstAttribute="trailing" secondItem="bzJ-Md-Akb" secondAttribute="trailing" constant="20" id="SuX-h5-dh3"/>
+                <constraint firstAttribute="bottom" secondItem="bzJ-Md-Akb" secondAttribute="bottom" constant="20" id="ZSd-QC-SA3"/>
+                <constraint firstItem="bzJ-Md-Akb" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="20" id="oXg-5R-7lW"/>
+            </constraints>
+            <point key="canvasLocation" x="441" y="547"/>
+        </customView>
+    </objects>
+</document>
