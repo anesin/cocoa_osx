@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		220043A91CCB426900DB9EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220043A81CCB426900DB9EC9 /* AppDelegate.swift */; };
+		220043AD1CCB426A00DB9EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220043AC1CCB426A00DB9EC9 /* Assets.xcassets */; };
+		220043B01CCB426A00DB9EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220043AE1CCB426A00DB9EC9 /* Main.storyboard */; };
+		220043B91CCB6DEA00DB9EC9 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220043B71CCB6DEA00DB9EC9 /* Course.swift */; };
+		220043BA1CCB6DEA00DB9EC9 /* ScheduleFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220043B81CCB6DEA00DB9EC9 /* ScheduleFetcher.swift */; };
+		220043BC1CCB6EDC00DB9EC9 /* CourseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220043BB1CCB6EDC00DB9EC9 /* CourseListViewController.swift */; };
+		220043BE1CCB7AE000DB9EC9 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220043BD1CCB7AE000DB9EC9 /* WebViewController.swift */; };
+		220043C01CCB850B00DB9EC9 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220043BF1CCB850B00DB9EC9 /* MainSplitViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		220043A51CCB426900DB9EC9 /* RanchForecastSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RanchForecastSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		220043A81CCB426900DB9EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		220043AC1CCB426A00DB9EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		220043AF1CCB426A00DB9EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		220043B11CCB426A00DB9EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		220043B71CCB6DEA00DB9EC9 /* Course.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		220043B81CCB6DEA00DB9EC9 /* ScheduleFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFetcher.swift; sourceTree = "<group>"; };
+		220043BB1CCB6EDC00DB9EC9 /* CourseListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseListViewController.swift; sourceTree = "<group>"; };
+		220043BD1CCB7AE000DB9EC9 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		220043BF1CCB850B00DB9EC9 /* MainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220043A21CCB426900DB9EC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2200439C1CCB426900DB9EC9 = {
+			isa = PBXGroup;
+			children = (
+				220043A71CCB426900DB9EC9 /* RanchForecastSplit */,
+				220043A61CCB426900DB9EC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		220043A61CCB426900DB9EC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				220043A51CCB426900DB9EC9 /* RanchForecastSplit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		220043A71CCB426900DB9EC9 /* RanchForecastSplit */ = {
+			isa = PBXGroup;
+			children = (
+				220043B71CCB6DEA00DB9EC9 /* Course.swift */,
+				220043B81CCB6DEA00DB9EC9 /* ScheduleFetcher.swift */,
+				220043A81CCB426900DB9EC9 /* AppDelegate.swift */,
+				220043AC1CCB426A00DB9EC9 /* Assets.xcassets */,
+				220043AE1CCB426A00DB9EC9 /* Main.storyboard */,
+				220043BF1CCB850B00DB9EC9 /* MainSplitViewController.swift */,
+				220043BB1CCB6EDC00DB9EC9 /* CourseListViewController.swift */,
+				220043BD1CCB7AE000DB9EC9 /* WebViewController.swift */,
+				220043B11CCB426A00DB9EC9 /* Info.plist */,
+			);
+			path = RanchForecastSplit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		220043A41CCB426900DB9EC9 /* RanchForecastSplit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 220043B41CCB426A00DB9EC9 /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */;
+			buildPhases = (
+				220043A11CCB426900DB9EC9 /* Sources */,
+				220043A21CCB426900DB9EC9 /* Frameworks */,
+				220043A31CCB426900DB9EC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RanchForecastSplit;
+			productName = RanchForecastSplit;
+			productReference = 220043A51CCB426900DB9EC9 /* RanchForecastSplit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2200439D1CCB426900DB9EC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = anesin;
+				TargetAttributes = {
+					220043A41CCB426900DB9EC9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 220043A01CCB426900DB9EC9 /* Build configuration list for PBXProject "RanchForecastSplit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2200439C1CCB426900DB9EC9;
+			productRefGroup = 220043A61CCB426900DB9EC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				220043A41CCB426900DB9EC9 /* RanchForecastSplit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		220043A31CCB426900DB9EC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220043AD1CCB426A00DB9EC9 /* Assets.xcassets in Resources */,
+				220043B01CCB426A00DB9EC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		220043A11CCB426900DB9EC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220043B91CCB6DEA00DB9EC9 /* Course.swift in Sources */,
+				220043BC1CCB6EDC00DB9EC9 /* CourseListViewController.swift in Sources */,
+				220043C01CCB850B00DB9EC9 /* MainSplitViewController.swift in Sources */,
+				220043A91CCB426900DB9EC9 /* AppDelegate.swift in Sources */,
+				220043BE1CCB7AE000DB9EC9 /* WebViewController.swift in Sources */,
+				220043BA1CCB6DEA00DB9EC9 /* ScheduleFetcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		220043AE1CCB426A00DB9EC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				220043AF1CCB426A00DB9EC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		220043B21CCB426A00DB9EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		220043B31CCB426A00DB9EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		220043B51CCB426A00DB9EC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anesiner.wordpress.com.RanchForecastSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		220043B61CCB426A00DB9EC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RanchForecastSplit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = anesiner.wordpress.com.RanchForecastSplit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		220043A01CCB426900DB9EC9 /* Build configuration list for PBXProject "RanchForecastSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220043B21CCB426A00DB9EC9 /* Debug */,
+				220043B31CCB426A00DB9EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		220043B41CCB426A00DB9EC9 /* Build configuration list for PBXNativeTarget "RanchForecastSplit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				220043B51CCB426A00DB9EC9 /* Debug */,
+				220043B61CCB426A00DB9EC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2200439D1CCB426900DB9EC9 /* Project object */;
+}
