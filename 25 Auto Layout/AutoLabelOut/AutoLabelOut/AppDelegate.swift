@@ -34,7 +34,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Make the text field update the label's text
         
         // when the text field's text changes:
-        textField.action = Selector("takeStringValueFrom:")
+        textField.action = #selector(NSCell.takeStringValueFrom(_:))
         textField.target = label
         
         let superview = window.contentView!

@@ -13,7 +13,6 @@
 		22087C701C4A55D100D1DEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22087C6A1C4A55D100D1DEED /* AppDelegate.swift */; };
 		22087C711C4A55D100D1DEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22087C6B1C4A55D100D1DEED /* Assets.xcassets */; };
 		22087C721C4A55D100D1DEED /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22087C6D1C4A55D100D1DEED /* MainMenu.xib */; };
-		22087C731C4A55D100D1DEED /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22087C6F1C4A55D100D1DEED /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,7 +94,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = anesin;
 				TargetAttributes = {
 					225C248B1C019CE900F9AF79 = {
@@ -126,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22087C731C4A55D100D1DEED /* Info.plist in Resources */,
 				22087C711C4A55D100D1DEED /* Assets.xcassets in Resources */,
 				22087C691C4A55AE00D1DEED /* MainWindowController.xib in Resources */,
 				22087C721C4A55D100D1DEED /* MainMenu.xib in Resources */,

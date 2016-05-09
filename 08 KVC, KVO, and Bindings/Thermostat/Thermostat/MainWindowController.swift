@@ -47,7 +47,7 @@ class MainWindowController: NSWindowController {
 //        let newTemperature = temperature + 1
 //        setValue(newTemperature, forKey: "temperature")
 //        willChangeValueForKey("temperature")
-        temperature++
+        temperature += 1
 //        didChangeValueForKey("temperature")
     }
     
@@ -55,7 +55,7 @@ class MainWindowController: NSWindowController {
 //        let newTemperature = temperature - 1
 //        setValue(newTemperature, forKey: "temperature")
 //        willChangeValueForKey("temperature")
-        temperature--
+        temperature -= 1
 //        didChangeValueForKey("temperature")
     }
     

@@ -29,7 +29,7 @@ class ChatWindowController: NSWindowController {
         super.windowDidLoad()
         
         let notificationCenter = NSNotificationCenter.defaultCenter()
-        notificationCenter.addObserver(self, selector: Selector("receiveDidSendMessageNotification:"), name: ChatWindowControllerDidSendMessageNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(ChatWindowController.receiveDidSendMessageNotification(_:)), name: ChatWindowControllerDidSendMessageNotification, object: nil)
     }
     
     deinit {
